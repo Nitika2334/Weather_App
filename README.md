@@ -1,4 +1,4 @@
- # Real-Time Weather Monitoring System with Summarized Insights and Alerts
+ # Weather APP
 
 ## Project Overview
 
@@ -12,6 +12,10 @@ The system retrieves data from the OpenWeatherMap API, which requires an API key
 - **Temperature** (real-time, in Celsius or Fahrenheit as per preference)
 - **Feels Like** (perceived temperature)
 - **Timestamp** of the data update
+
+## Data Storage
+
+Weather details are stored in a database. PostgreSQL is well-suited here due to its powerful SQL compliance, robust relational structure, and support for complex queries and data integrity.
 
 ## Functional Overview
 
